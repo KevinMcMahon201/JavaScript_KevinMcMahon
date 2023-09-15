@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Module 06 Assignment: Kevin McMahon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            background-color: lavender;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        select, button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            background-color: lavender;
+            color: black;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e6e6fa;
+        }
+        p {
+            background-color: #ddd;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+<h1>Select a Dog</h1>
+<select id="dogSelector">
+    <option value="Goofy">Goofy</option>
+    <option value="Scooby-Doo">Scooby-Doo</option>
+    <option value="Petey">Petey</option>
+</select>
+<button onclick="displayDogInfo()">Display Info</button>
+<p id="dogInfo"></p>
+
+<script src="mod6script.js"></script>
+</body>
+</html>
